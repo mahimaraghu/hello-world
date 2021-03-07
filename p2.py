@@ -10,9 +10,9 @@ marks = list(set(marks))
 marks.sort()
 
 try:
-    _2nd_mark = marks[1]
+    second_min = marks[1]
     def getName(arr):
-        if float(arr[1]) == _2nd_mark:
+        if float(arr[1]) == second_min:
             return arr[0]
     res = list(filter(getName, finallist))
     
