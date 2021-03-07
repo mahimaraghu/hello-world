@@ -1,14 +1,3 @@
-# finallist=[]
-# for _ in range(int(input())):
-#     name = input()
-#     score = float(input())
-#     lst=list((name,score))
-#     finallist.append(lst)
-# print(finallist)
-# finallist.sort(key = lambda x: x[1]) 
-# print(finallist)
-# print(finallist[1])
-
 finallist = []
 marks = []
 for _ in range(int(input())):
