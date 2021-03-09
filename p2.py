@@ -20,6 +20,8 @@ try:
     for i in res:
         print(i[0])
 
+    print('hey panda')
+
 except Exception as e:
      print('err', e)
 
